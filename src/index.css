@@ -82,7 +82,6 @@ code {
 
 .header-img .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
-  /* border: 2px solid; */
 }
 @-webkit-keyframes up-down {
   0% {
