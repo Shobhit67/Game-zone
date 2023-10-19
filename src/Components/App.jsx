@@ -21,9 +21,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/services" element={<Services/>} />
         <Route path="/login" element={<Login/>} />
-        <Route path="/register" element={<Register/>} />
-        {/* <Redirect to="/" /> */}
-        
+        <Route path="/register" element={<Register/>} />        
       </Routes>
       <Footer />
     </div>
