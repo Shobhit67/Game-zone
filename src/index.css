@@ -72,13 +72,13 @@ code {
   color: white;
 }
 .partition {
-  padding-top: 8rem;
+  padding-top: 6rem;
   align-items: center;
 }
 .d-flex {
   padding-bottom: 4.5rem;
 }
-/* ******************************************** HEADER *********************************** */
+/* ************************************* HEADER ****************************** */
 
 #header h1 {
   margin: 0 0 1rem 0;
