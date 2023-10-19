@@ -8,8 +8,15 @@ html {
   html {
     font-size: 130%;
   }
+  .container-fluid .navv {
+    padding: 1rem 0 !important;
+  }
 
+  .partition {
+    padding-top: 3rem !important;
+  }
   #header h1,
+  #header h3,
   .my-3 {
     width: 200%;
   }
@@ -17,7 +24,7 @@ html {
     text-align: center !important;
   }
   .animated {
-    width: 35rem;
+    width: 32rem;
   }
 }
 
@@ -34,16 +41,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#container-fluid .navv {
+  padding: 0.7rem 0 !important;
+}
+
 .navbar a {
   text-transform: capitalize;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 .navbar-nav {
   margin-left: auto;
-}
-.menu-active {
-  font-weight: bold;
-  border-bottom: 1px solid #565387;
 }
 .navbar a:hover {
   color: #3498db !important;
@@ -58,12 +66,14 @@ code {
   letter-spacing: 0.1rem;
   padding: 1rem 2rem;
   transition: 0.5s;
+  font-size: 1.4rem;
 }
 .mt-3 a:hover {
   color: white;
 }
 .partition {
-  padding-top: 5rem;
+  padding-top: 8rem;
+  align-items: center;
 }
 .d-flex {
   padding-bottom: 4.5rem;
@@ -98,4 +108,15 @@ code {
   100% {
     transform: translatey(-1rem);
   }
+}
+
+.Login-section{
+  font-size: 2rem;
+}
+
+
+/* *************************************** FOOTER *************************************************** */
+
+.footer {
+  margin-top: 2rem;
 }

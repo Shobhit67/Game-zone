@@ -11,6 +11,7 @@ function Home() {
       brandname ="ultimate gaming destination!"
       visit ="/services"
       imgSrc ={web}
+      subtitle = "We provide you with an excellent Gaming experience 🔥"
       btnname="Get started"/>
     </div>
   );

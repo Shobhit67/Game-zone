@@ -12,10 +12,11 @@ function Common(props) {
 
                 <div className="col-md-6 pt-5 pt-lg-0 d-flex order-2 order-lg-1 flex-column">
                   <h1>{props.Title}<strong className="brand-name"> {props.brandname}</strong></h1>
-                  <h2 className="my-3">We provide you with an excellent Gaming experience 🔥 </h2>
+                  <h2 className="my-3">{props.subtitle }</h2>
+                  <h3>{props.feedbacktext}</h3>
                   <div className="mt-3">
                     <NavLink to={props.visit} className="btn btn-outline-info">{props.btnname}</NavLink>
-                  </div>
+                  </div> 
                 </div>
                 
                 <div className="col-lg-6 order-1 order-2 header-img">
