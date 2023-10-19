@@ -74,13 +74,11 @@ code {
 /* ******************************************** HEADER *********************************** */
 
 #header h1{
-  /* border: .2rem solid red; */
   margin: 0 0 1.0rem 0;
   font-size: 4.3rem;
   font-weight: 700;
 }
 .header-img{
-  /* border: .2rem solid yellow; */
   text-align: right;
 }
 
