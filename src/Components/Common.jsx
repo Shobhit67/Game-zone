@@ -19,7 +19,7 @@ function Common(props) {
                 </div>
                 
                 <div className="col-lg-6 order-1 order-2 header-img">
-                  <img src={props.imgSrc} alt="" className="img-fluid animated" />
+                  <img src={props.imgSrc} alt="" className="animated" />
                 </div>
               </div>
             </div>
