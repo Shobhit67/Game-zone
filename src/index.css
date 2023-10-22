@@ -1,6 +1,6 @@
 html {
   /* Change 1rem = 10px, 62.5% */
-  font-size: 82.5%;
+  font-size: 72.5%;
 }
 
 /* Making Responsive */
@@ -35,6 +35,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: black !important; */
+  /* color: white !important; */
 }
 
 code {
@@ -110,11 +112,27 @@ code {
   }
 }
 
-/* Login section */
-.Login-section{
-  font-size: 2rem;
+
+/* ***************************LOGOIN FORM******************8 */
+
+form{
+  margin: 2rem 20rem;
+}
+.form-group {
+  padding: 5rem 8rem 8rem 8rem;
+}
+.input-group > input{
+  font-size: 1.5rem !important;
 }
 
+@media (max-width: 1195px) {
+  form{
+    margin: 2rem 0;
+  }
+  .form-group {
+    padding: 5rem 8rem 8rem 8rem;
+  }
+}
 
 /* *************************************** FOOTER *************************************************** */
 

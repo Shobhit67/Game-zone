@@ -3,17 +3,13 @@ import React from "react";
 function Form(props) {
   return (
     <div>
-      <label for="" class="form-label">
-        {props.label}
-      </label>
-    
-      <input
-        type={props.type}
-        class="form-control"
-        id="exampleFormControlInput1"
-        placeholder={props.placeholder}
-      />
-    
+      <div class="input-group input-group-lg">
+        <input
+          type="text"
+          class="form-control"
+          placeholder={props.placeholder}
+        />
+      </div>
     </div>
   );
 }
