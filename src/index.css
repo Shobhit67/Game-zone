@@ -112,25 +112,30 @@ code {
   }
 }
 
-
 /* ***************************LOGOIN FORM******************8 */
 
-form{
-  margin: 2rem 20rem;
+.outer-div {
+  padding: 3rem 0;
+  margin: 3rem 10rem;
 }
 .form-group {
   padding: 5rem 8rem 8rem 8rem;
 }
-.input-group > input{
+.input-group > input {
   font-size: 1.5rem !important;
 }
 
 @media (max-width: 1195px) {
-  form{
+  form {
     margin: 2rem 0;
   }
   .form-group {
-    padding: 5rem 8rem 8rem 8rem;
+    padding: 2rem 5rem;
+  }
+
+  .outer-div {
+    padding: 2rem 0;
+    margin: 10rem 0rem;
   }
 }
 
@@ -138,4 +143,40 @@ form{
 
 .footer {
   margin-top: 2rem;
+}
+
+
+
+
+/* ******************************************************LUDO ****************************8 */
+.Ludo-box{
+  text-align: center;
+  padding:2rem 0;
+} 
+.Ludo-box h1 {
+  width: 100%;
+  font-size: 4rem;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  /* border: 2px solid black; */
+  margin: 2rem 4rem;
+}
+
+.dice p{
+  font-size: large;
+  font-weight:600;
+}
+
+.mt-3 button {
+  border-radius: 3rem !important;
+  letter-spacing: 0.1rem;
+  padding: 1rem 2rem;
+  transition: 0.5s;
+  font-size: 1.4rem;
+}
+.mt-3 button:hover {
+  color: white;
 }

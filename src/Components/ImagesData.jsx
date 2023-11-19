@@ -1,35 +1,25 @@
-import cartoon from "../images/cartoon.png";
-import goku2 from "../images/goku2.png";
-import pubg1 from "../images/pubg1.png";
-import got from "../images/got.png";
-import musclecar from "../images/musclecar.png";
-import Money from "../images/Money.png";
+// ImagesData.jsx
+import Ludo from "../images/ludo.png"
+import Pubg1 from "../images/pubg1.png"
+import Goku from "../images/cartoon.png"
+
+import LudoGame from "./LudoGame"; // Import LudoGame as a component
 
 const ImagesData = [
   {
-    imgSrc: pubg1,
+    imgSrc: Ludo, // Use the actual component reference
+    title: "Roll a Dice",
+    link:"/LudoGame",
+  },
+  {
+    imgSrc: Pubg1, // Use the actual component reference
     title: "Pubg",
+    link:"Paid",
   },
   {
-    imgSrc: musclecar,
-    title: "Muscle car",
-  },
-  {
-    imgSrc: got,
-    title: "Game of Thrones",
-  },
-  {
-    imgSrc: goku2,
-    title: "Goku",
-  },
-  
-  {
-    imgSrc: cartoon,
-    title: "Dragon Ball Z",
-  },
-  {
-    imgSrc: Money,
-    title: "Money Heist Game",
+    imgSrc: Goku, // Use the actual component reference
+    title: "Dragon bolz",
+    link:"Paid",
   },
 ];
 

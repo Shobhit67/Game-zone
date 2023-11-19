@@ -5,9 +5,12 @@ function Form(props) {
     <div>
       <div class="input-group input-group-lg">
         <input
-          type="text"
           class="form-control"
+          type={props.type}
+          name={props.name}
           placeholder={props.placeholder}
+          value={props.value}
+          onChange={props.onChange}
         />
       </div>
     </div>
