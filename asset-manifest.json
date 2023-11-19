@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/Game-zone/static/css/main.2b8e8475.css",
-    "main.js": "/Game-zone/static/js/main.c63b7854.js",
+    "main.css": "/Game-zone/static/css/main.6823a16d.css",
+    "main.js": "/Game-zone/static/js/main.d16f40d4.js",
     "static/media/pubg1.png": "/Game-zone/static/media/pubg1.27b38639cb78c1e504bf.png",
     "static/media/goku2.png": "/Game-zone/static/media/goku2.19a28312cf727fa2c728.png",
-    "static/media/Money.png": "/Game-zone/static/media/Money.db858dc74ed7be083738.png",
+    "static/media/ludo.png": "/Game-zone/static/media/ludo.d09fbc8b1a70a14648d3.png",
     "static/media/cartoon.png": "/Game-zone/static/media/cartoon.67205887b8e0f758a2b1.png",
-    "static/media/got.png": "/Game-zone/static/media/got.d2792e8f4c2fda22bfae.png",
-    "static/media/musclecar.png": "/Game-zone/static/media/musclecar.c8be6a31c254b55e5964.png",
     "index.html": "/Game-zone/index.html",
-    "main.2b8e8475.css.map": "/Game-zone/static/css/main.2b8e8475.css.map",
-    "main.c63b7854.js.map": "/Game-zone/static/js/main.c63b7854.js.map"
+    "main.6823a16d.css.map": "/Game-zone/static/css/main.6823a16d.css.map",
+    "main.d16f40d4.js.map": "/Game-zone/static/js/main.d16f40d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b8e8475.css",
-    "static/js/main.c63b7854.js"
+    "static/css/main.6823a16d.css",
+    "static/js/main.d16f40d4.js"
   ]
 }
