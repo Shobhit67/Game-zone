@@ -26,7 +26,23 @@ html {
   .animated {
     width: 32rem;
   }
+
+  form {
+    margin: 2rem 0;
+  }
+  .form-group {
+    padding: 2rem 5rem;
+  }
+
+  .outer-div {
+    padding: 2rem 0;
+    margin: 10rem 0rem;
+  }
+  .card-img-top {
+    height: 10px;
+  }
 }
+
 
 body {
   margin: 0;
@@ -53,7 +69,8 @@ code {
   font-size: 1.4rem;
 }
 .navbar-nav {
-  margin-left: auto;
+  margin-left: 33%;
+
 }
 .navbar a:hover {
   color: #3498db !important;
@@ -125,19 +142,7 @@ code {
   font-size: 1.5rem !important;
 }
 
-@media (max-width: 1195px) {
-  form {
-    margin: 2rem 0;
-  }
-  .form-group {
-    padding: 2rem 5rem;
-  }
 
-  .outer-div {
-    padding: 2rem 0;
-    margin: 10rem 0rem;
-  }
-}
 
 /* *************************************** FOOTER *************************************************** */
 
@@ -145,7 +150,10 @@ code {
   margin-top: 2rem;
 }
 
-
+/* *************************************CARD.JSX ********************************** */
+.card-img-top {
+  height: 28.5rem;
+}
 
 
 /* ******************************************************LUDO ****************************8 */
@@ -161,7 +169,6 @@ code {
 .dice {
   text-align: center;
   display: inline-block;
-  /* border: 2px solid black; */
   margin: 2rem 4rem;
 }
 

@@ -77,6 +77,11 @@ function Navbar() {
                     </NavLink>
                   </li>
                 </ul>
+                <ul className="navbar-nav mb-2 mb-lg-0">
+                  <li className="nav-item">
+                    <h4 className="mt-1">Shobhit goyal</h4>
+                  </li>
+                </ul>
               </div>
             </div>
           </nav>

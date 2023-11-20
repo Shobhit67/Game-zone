@@ -9,8 +9,8 @@ function Services() {
   return (
     <div>
       <div className="my-5">
-        <h2 className="text-center fs-1">Welcome to Our Gaming World<br/><br/></h2>
-        <div className="container-fluid mb-5">
+        <h2 className="text-center fs-1 mb-5 pb-3">Welcome to Our Gaming World</h2>
+        <div className="container-fluid">
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row gy-4">
