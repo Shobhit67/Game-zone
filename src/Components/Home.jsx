@@ -1,8 +1,7 @@
 import React from "react";
 import Common from "./Common";
 import web from "../images/goku2.png";
-import { useNavigate } from "react-router-dom";
-
+import { useEffect } from "react";
 function Home() {
 
   return (

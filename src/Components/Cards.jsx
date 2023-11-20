@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 function Cards(props) {
-  const isLinkPaid = props.link === "Paid";
+  const isLinkPaid = props.link === "#";
 
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
@@ -31,15 +31,24 @@ function Cards(props) {
       className={`Card-box ${isSmallScreen ? "col-md-12" : "col-md-4"}`}
       style={{ margin: isSmallScreen ? "5rem" : "0rem" }}
     >
-      <div className="card" style={{ width: "70%", border: "none" }}>
+      <div
+        className="card text-center"
+        style={{ width: "75%", border: "none" }}
+      >
         <div className="embed-responsive embed-responsive-16by9">
           <img src={props.imgSrc} className="card-img-top" alt={props.imgSrc} />
           <div className="card-body" style={{ border: "1px solid lightBlue" }}>
-            <h5 className="card-title font-weight-bold text-uppercase">
+            <h5 className="card-title font-weight-bold text-uppercase fs-3">
               {props.title}
             </h5>
-            <NavLink to={props.link} className="btn btn-outline-success btn-lg">
-              {isLinkPaid ? "Paid" : "Play"}
+            <NavLink
+              to={props.link}
+              className={`btn btn-outline-${
+                isLinkPaid ? "danger" : "success"
+              } btn-lg fs-4`}
+              style={{ padding: "0.2rem 1.8rem" }}
+            >
+              {isLinkPaid ? "Pay" : "Play"}
             </NavLink>
           </div>
         </div>

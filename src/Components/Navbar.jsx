@@ -11,14 +11,22 @@ function Navbar() {
   const closeNav = () => {
     setIsNavOpen(false);
   };
-  
+
   return (
     <div className="container-fluid nav_bg">
       <div className="row">
         <div className="col-12 mx-auto">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid navv" style={{ background: "rgb(11, 188, 243, 0.1)" }}>
-              <NavLink style={{ fontWeight: "700", color: "#0bbcf3" }} className="navbar-brand" to="/" onClick={closeNav}>
+            <div
+              className="container-fluid navv"
+              style={{ background: "rgb(11, 188, 243, 0.1)" }}
+            >
+              <NavLink
+                style={{ fontWeight: "700", color: "#0bbcf3" }}
+                className="navbar-brand"
+                to="/"
+                onClick={closeNav}
+              >
                 Gaming Zone
               </NavLink>
               <button
@@ -33,7 +41,12 @@ function Navbar() {
               >
                 <span className="navbar-toggler-icon"></span>
               </button>
-              <div className={`collapse navbar-collapse ${isNavOpen ? "show" : ""}`} id="navbarSupportedContent">
+              <div
+                className={`collapse navbar-collapse ${
+                  isNavOpen ? "show" : ""
+                }`}
+                id="navbarSupportedContent"
+              >
                 <ul className="navbar-nav mb-2 mb-lg-0">
                   <li className="nav-item">
                     <NavLink

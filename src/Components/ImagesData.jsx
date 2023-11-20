@@ -14,12 +14,12 @@ const ImagesData = [
   {
     imgSrc: Pubg1, // Use the actual component reference
     title: "Pubg",
-    link:"Paid",
+    link:"#",
   },
   {
     imgSrc: Goku, // Use the actual component reference
     title: "Dragon bolz",
-    link:"Paid",
+    link:"#",
   },
 ];
 
