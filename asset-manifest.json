@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Game-zone/static/css/main.21b8d90c.css",
-    "main.js": "/Game-zone/static/js/main.2ce9a768.js",
+    "main.css": "/Game-zone/static/css/main.db10412d.css",
+    "main.js": "/Game-zone/static/js/main.80dd196d.js",
     "static/media/pubg1.png": "/Game-zone/static/media/pubg1.27b38639cb78c1e504bf.png",
     "static/media/goku2.png": "/Game-zone/static/media/goku2.19a28312cf727fa2c728.png",
     "static/media/ludo.png": "/Game-zone/static/media/ludo.d09fbc8b1a70a14648d3.png",
     "static/media/cartoon.png": "/Game-zone/static/media/cartoon.67205887b8e0f758a2b1.png",
     "index.html": "/Game-zone/index.html",
-    "main.21b8d90c.css.map": "/Game-zone/static/css/main.21b8d90c.css.map",
-    "main.2ce9a768.js.map": "/Game-zone/static/js/main.2ce9a768.js.map"
+    "main.db10412d.css.map": "/Game-zone/static/css/main.db10412d.css.map",
+    "main.80dd196d.js.map": "/Game-zone/static/js/main.80dd196d.js.map"
   },
   "entrypoints": [
-    "static/css/main.21b8d90c.css",
-    "static/js/main.2ce9a768.js"
+    "static/css/main.db10412d.css",
+    "static/js/main.80dd196d.js"
   ]
 }
