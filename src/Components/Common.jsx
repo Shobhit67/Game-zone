@@ -11,7 +11,7 @@ function Common(props) {
               <div className="row partition">
 
                 <div className="col-md-6 pt-5 pt-lg-0 d-flex order-2 order-lg-1 flex-column">
-                  <h1>{props.Title}<strong className="brand-name"> {props.brandname}</strong></h1>
+                  <h1>{props.Title} <strong className="brand-name"> {props.brandname}</strong></h1>
                   <h2 className="my-3">{props.subtitle }</h2>
                   <h3>{props.feedbacktext}</h3>
                   <div className="mt-3">

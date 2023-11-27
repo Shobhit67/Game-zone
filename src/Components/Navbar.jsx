@@ -47,7 +47,7 @@ function Navbar() {
                 }`}
                 id="navbarSupportedContent"
               >
-                <ul className="navbar-nav mb-2 mb-lg-0">
+                <ul className={`navbar-nav mx-auto mb-2 mb-lg-0`}>
                   <li className="nav-item">
                     <NavLink
                       activeClassName="menu-active"
@@ -83,16 +83,34 @@ function Navbar() {
                     <NavLink
                       activeClassName="menu-active"
                       className="nav-link active"
-                      to="/login"
+                      to="https://discord.com/"
                       onClick={closeNav}
                     >
-                      Login/Register
+                      Discord
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      activeClassName="menu-active"
+                      className="nav-link active"
+                      onClick={closeNav}
+                    >
+                      <a href="mailto:OurTeam"> Help?</a>
                     </NavLink>
                   </li>
                 </ul>
                 <ul className="navbar-nav mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <h4 className="mt-1">Shobhit goyal</h4>
+                    <h4 className="mt-1">
+                      <NavLink
+                        activeClassName="menu-active"
+                        className="nav-link active"
+                        to="/login"
+                        onClick={closeNav}
+                      >
+                        Login/Register
+                      </NavLink>
+                    </h4>
                   </li>
                 </ul>
               </div>
